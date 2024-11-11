@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktestapi"]=self["webpackChunktestapi"]||[]).push([[594],{603:function(t,n,u){u.r(n),u.d(n,{default:function(){return l}});var a=u(6768);const e={class:"about"},s=(0,a.Lk)("h1",null,"This is an about page",-1),r=[s];function c(t,n){return(0,a.uX)(),(0,a.CE)("div",e,r)}var i=u(1241);const o={},f=(0,i.A)(o,[["render",c]]);var l=f}}]);
+//# sourceMappingURL=about.cb6ca11c.js.map
