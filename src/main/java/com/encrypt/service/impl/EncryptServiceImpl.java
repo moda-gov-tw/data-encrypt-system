@@ -104,4 +104,5 @@ public class EncryptServiceImpl implements EncryptService {
             return URLEncoder.encode(baseHmac, StandardCharsets.UTF_8);
         }
     }
+
 }
