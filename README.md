@@ -53,3 +53,6 @@
 
 ## 範例結果
 ![example](images/1728372178972.jpg)
+
+## License
+本專案圖文部分授權為CC0，程式碼部分授權為MIT，詳細授權內容請參閱 LICENSE 文件。
