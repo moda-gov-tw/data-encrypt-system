@@ -4,7 +4,7 @@
 * JDK 版本：Java 17
 * 框架：Spring Boot v3.3.2
 * 構建工具：Maven
-* 前端技術：Vue3、Vue CLI v5.0.8
+* 前端技術：Vue3
 * Node.js 版本：v18.18.0
 
 ## 模組說明
