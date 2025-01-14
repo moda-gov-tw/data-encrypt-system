@@ -3,6 +3,7 @@ package com.encrypt.controller;
 import com.encrypt.service.EncryptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.apache.commons.text.StringEscapeUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,7 +27,7 @@ public class EncryptController {
 
         System.out.println("Success");
         System.out.println("The String is :" + encryptStr);
-        return ResponseEntity.ok(encryptStr);
+        return ResponseEntity.ok(StringEscapeUtils.escapeHtml4(encryptStr));
     }
 
     @PostMapping("/hmac")
@@ -36,7 +37,7 @@ public class EncryptController {
 
         System.out.println("Success");
         System.out.println("The String is :" + encryptStr);
-        return ResponseEntity.ok((encryptStr));
+        return ResponseEntity.ok(StringEscapeUtils.escapeHtml4(encryptStr));
     }
 
 }
